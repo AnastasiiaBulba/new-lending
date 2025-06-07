@@ -1,0 +1,21 @@
+@import './common/vars';
+
+.premium-three-wrap-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-right: 14px;
+}
+
+.premium-three-parag {
+  color: $_white;
+  font-size: 24px;
+  font-family: 'Arial', Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: $_red;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-bottom: 20px;
+}

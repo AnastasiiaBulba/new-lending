@@ -1,0 +1,87 @@
+@import './common/vars';
+
+.is-hidden {
+  background: none;
+  display: none;
+}
+
+.backdrop {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 375px;
+  z-index: 1001;
+}
+
+.wrap-dop {
+  width: 375px;
+  background: $_white;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  top: 0;
+}
+
+.back-button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 18px;
+  right: 12px;
+  cursor: pointer;
+}
+
+.modal-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-nav-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  padding-top: 40px;
+  gap: 20px;
+}
+
+.modal-nav-link {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  color: $_black;
+  cursor: pointer;
+}
+
+.modal-href {
+  text-align: center;
+}
+
+.modal-href-text {
+  font-family: 'PT Serif', serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #e6382b;
+  line-height: 1.5;
+  padding: 10px 30px;
+  border-radius: 100px;
+  width: 128px;
+  margin: 30px auto;
+}

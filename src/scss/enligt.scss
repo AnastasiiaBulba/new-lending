@@ -1,0 +1,61 @@
+@import './common/vars';
+
+.enligt {
+  scroll-padding-top: 20px;
+}
+
+.enligt-title {
+  font-size: 30px;
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.enligt-parag {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.enligt-parag-span {
+  font-weight: 700;
+  color: $_red;
+}
+
+.paragraph {
+  padding-bottom: 24px;
+}
+
+.enligt-img {
+  width: 313px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  box-shadow: -4px 4px 0 0 $_red, 0 4px 0 -4px $_red;
+}
+
+.enligt-parag-bold {
+  font-family: 'PT Serif', serif;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.enligt-btn {
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  color: $_white;
+  font-size: 20px;
+  line-height: 1.55;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: $_red;
+  font-size: 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-bottom: 50px;
+}

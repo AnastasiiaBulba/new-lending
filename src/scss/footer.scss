@@ -1,0 +1,61 @@
+@import './common/vars';
+
+.footer-wrap {
+  background: $_black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 75px 22px;
+}
+
+.header-logo {
+  width: 335px;
+}
+
+.footer-social {
+  margin-top: 30px;
+  display: flex;
+  gap: 9px;
+}
+
+.footer-text {
+  padding-top: 21px;
+  padding-bottom: 30px;
+  color: $_gray;
+  font-family: 'PT Serif', serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.footer-block {
+  padding-bottom: 30px;
+}
+
+.footer-text-title {
+  font-family: 'PT Serif', serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: $_gray;
+  margin-bottom: 14px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.footer-nav-item {
+  padding-bottom: 10px;
+}
+
+.footer-nav-link {
+  font-family: 'PT Serif', serif;
+  font-weight: 300;
+  color: $_white;
+  font-size: 12px;
+  line-height: 1.55;
+}

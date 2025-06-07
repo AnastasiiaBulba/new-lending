@@ -1,0 +1,37 @@
+@import './common/vars';
+
+.jag-text {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  line-height: 22px;
+}
+
+.jag-parag-span {
+  font-size: 15px;
+  font-weight: 400;
+  color: $_red;
+}
+
+.jag-img {
+  margin: 0 auto;
+  width: 312px;
+  margin-bottom: 24px;
+  box-shadow: -4px 4px 0 0 $_red, 0 4px 0 -4px $_red;
+}
+
+.jag-btn {
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  color: $_white;
+  font-size: 20px;
+  line-height: 1.55;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: $_red;
+  font-size: 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-bottom: 50px;
+}

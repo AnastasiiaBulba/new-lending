@@ -1,0 +1,46 @@
+@import './modal.scss';
+@import './header.scss';
+@import './hero.scss';
+@import './premium.scss';
+@import './formeln.scss';
+@import './premium-two.scss';
+@import './fred.scss';
+@import './premium-three.scss';
+@import './jag.scss';
+@import './enligt.scss';
+@import './comments.scss';
+@import './form.scss';
+@import './footer.scss';
+
+@import './common/reset';
+@import './common/mixins';
+@import './common/breakpoints';
+@import './common/vars';
+
+:root {
+  font-family: Arial, sans-serif;
+  color: $_black;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: $_white;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+}
+
+.is-hidden {
+  display: none;
+}

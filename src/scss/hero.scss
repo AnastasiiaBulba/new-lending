@@ -1,0 +1,163 @@
+@import './common/vars';
+
+.hero-wrap-dop {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-title {
+  font-family: 'PT Serif', serif;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 4px;
+}
+
+.hero-av {
+  line-height: 17px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.hero-hour {
+  color: #6f6565;
+  font-size: 10px;
+  line-height: 13px;
+  padding-bottom: 8px;
+}
+
+.hero-wrap-icons {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 10px solid $_red;
+  margin-bottom: 30px;
+}
+
+.hero-img-foji {
+  width: 83px;
+}
+
+.hero-img-dela {
+  width: 82px;
+}
+
+.hero-img-woman-one {
+  width: 297px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  box-shadow: -3px 3px 0 0 $_red, 0 3px 0 -3px $_red;
+}
+
+.hero-img-woman-two {
+  width: 309px;
+  margin: 0 auto;
+  padding-right: 4px;
+  margin-bottom: 24px;
+  box-shadow: -4px 4px 0 0 $_red, 0 4px 0 -4px $_red;
+}
+
+.hero-img-woman-three {
+  width: 300px;
+  margin: 0 auto;
+  padding-right: 4px;
+  margin-bottom: 24px;
+  box-shadow: -4px 4px 0 0 $_red, 0 4px 0 -4px $_red;
+}
+
+.hero-img-man-four {
+  width: 312px;
+  margin: 0 auto;
+  padding-right: 4px;
+  margin-bottom: 24px;
+  box-shadow: -4px 4px 0 0 $_red, 0 4px 0 -4px $_red;
+}
+
+.hero-block-text-one {
+  display: flex;
+  flex-direction: column;
+  width: 326px;
+}
+
+.hero-block-text-two {
+  display: flex;
+  flex-direction: column;
+  width: 326px;
+}
+
+.hero-block-text-three {
+  display: flex;
+  flex-direction: column;
+  width: 326px;
+}
+
+.hero-block-text-four {
+  display: flex;
+  flex-direction: column;
+  width: 326px;
+}
+
+.hero-block-title {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 30px;
+  padding-bottom: 24px;
+}
+
+.hero-block-title-two {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 30px;
+  padding-bottom: 24px;
+  width: 321px;
+}
+
+.hero-block-title-three {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 30px;
+  padding-bottom: 24px;
+  width: 375px;
+}
+
+.hero-block-title-four {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 28px;
+  padding-bottom: 24px;
+  width: 321px;
+  text-align: center;
+}
+
+.hero-parag {
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 24px;
+}
+
+.hero-parag-span {
+  font-weight: 700;
+  font-size: 15px;
+  color: $_red;
+}
+
+.hero-btn-mer {
+  text-align: center;
+  background-color: $_red;
+  font-size: 29px;
+  font-family: 'Arial', Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  color: $_white;
+  width: 320px;
+  border-radius: 5px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  margin-bottom: 24px;
+}

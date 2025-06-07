@@ -1,0 +1,44 @@
+@import './common/vars';
+
+.fred-wrap-content {
+  border: 10px solid $_red;
+  width: 320px;
+  padding: 10px 5px;
+  margin-bottom: 30px;
+}
+
+.dop {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.fred-parag {
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.fred-parag-span {
+  font-weight: 700;
+  font-size: 15px;
+  color: $_red;
+}
+
+.fred-img {
+  padding-bottom: 24px;
+}
+
+.fred-btn {
+  color: $_white;
+  font-size: 24px;
+  font-family: 'Arial', Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: $_red;
+  border-radius: 5px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-bottom: 20px;
+}

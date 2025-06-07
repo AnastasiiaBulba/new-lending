@@ -1,0 +1,45 @@
+@import './common/vars';
+
+.comments-title {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 30px;
+  color: $_white;
+  background: $_red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.comments-wrapper {
+  display: flex;
+  gap: 8px;
+  width: 315px;
+}
+
+.comments-wrapper-img {
+  width: 60px;
+  height: 60px;
+}
+
+.comments-wrapper-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 24px;
+}
+
+.comments-wrapper-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.comments-wrapper-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+}
